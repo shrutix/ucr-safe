@@ -78,14 +78,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4438" translatesAutoresizingMaskIntoConstraints="NO" id="LYL-zt-fDk">
-                                <rect key="frame" x="0.0" y="-28" width="414" height="899"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1969" translatesAutoresizingMaskIntoConstraints="NO" id="LYL-zt-fDk">
+                                <rect key="frame" x="0.0" y="-42" width="414" height="899"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqv-PA-8MA">
-                                <rect key="frame" x="66" y="755" width="284" height="53"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNT-Cs-Kgd">
+                                <rect key="frame" x="29" y="0.0" width="47" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="   "/>
+                                <connections>
+                                    <segue destination="fxM-1L-7Qb" kind="show" id="XH6-89-0Kl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqv-PA-8MA">
+                                <rect key="frame" x="65" y="727" width="284" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="21"/>
+                                <state key="normal" title="9518273772">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="escortCall:" destination="5CF-eS-Djw" eventType="touchUpInside" id="JCd-xg-iz5"/>
                                 </connections>
@@ -101,8 +111,11 @@
             <point key="canvasLocation" x="1092.753623188406" y="330.13392857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="XH6-89-0Kl"/>
+    </inferredMetricsTieBreakers>
     <resources>
-        <image name="IMG_4438" width="828" height="1792"/>
+        <image name="IMG_1969" width="828" height="1792"/>
         <image name="IMG_4958" width="828" height="1792"/>
         <image name="IMG_6912" width="1242" height="2688"/>
     </resources>

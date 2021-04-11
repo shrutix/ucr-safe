@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func escortCall(_ sender: UIButton) {
-        guard let numberString = sender.titleLabel?.text, let url = URL(string: "teleprompt://9518273772") else {
+        guard let numberString = sender.titleLabel?.text, let url = URL(string: "teleprompt://\(numberString)") else {
             return
         } /*\(numberString)*/
         
