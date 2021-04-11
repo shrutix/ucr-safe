@@ -23,6 +23,12 @@ class ViewController: UIViewController {
         UIApplication.shared.open(URL(string:"https://wrc.ucr.edu/programs/campus-safety-escort-service")! as URL, options: [:], completionHandler: nil)
     }
     
+    
+    @IBAction func tiktokEmgcyCall(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://vm.tiktok.com/ZMemkeDUd/")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }
