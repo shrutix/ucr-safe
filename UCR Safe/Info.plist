@@ -23,7 +23,7 @@
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>tel</string>
-		<string>teleprompt</string>
+		<string>telprompt</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
