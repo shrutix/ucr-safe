@@ -18,6 +18,11 @@ class ViewController: UIViewController {
         UIApplication.shared.open(url)
     }
     
+    
+    @IBAction func mapLink(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://wrc.ucr.edu/programs/campus-safety-escort-service")! as URL, options: [:], completionHandler: nil)
+    }
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }
